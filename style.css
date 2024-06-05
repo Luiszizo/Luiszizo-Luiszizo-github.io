@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+*{
+    font-family: montserrat;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+    background-image: linear-gradient(#333, black);
+    height: 1000px;
+}
+
+main h2 {
+    color: #fff;
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    
+}
+
+footer {
+    background-color: #333333;
+    box-sizing: border-box;
+    color: #000000;
+    margin-top: 30px;
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+
+} 
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 2px black;
+}
+
+/* Estilos existentes */
+
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.movie-details img {
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.details {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.details h3 {
+    margin-top: 10px;
+}
+
+.details p {
+    margin: 5px 0;
+}
